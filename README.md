@@ -1,6 +1,6 @@
 # 🦥 Finetuning LLaMA 3B with Unsloth
 
-This repository demonstrates how to **finetune LLaMA 3.2 (3B)** using [Unsloth](https://github.com/unslothai/unsloth), a highly efficient library for training large language models with minimal GPU memory and maximum speed. For training I used customly made prompts from [HuggingFace](https://huggingface.co/datasets/gaodrew/midjourney-prompts-highquality/viewer/default/train?row=1&views%5B%5D=train). For prompt creation I used gpt40-turbo and script you can find in this repository [GitHub](https://github.com/sukibk/llama3b-finetuning-mjprompts)
+This repository demonstrates how to **finetune LLaMA 3.2 (3B)** using [Unsloth](https://github.com/unslothai/unsloth), a highly efficient library for training large language models with minimal GPU memory and maximum speed. For training I used customly made prompts from [Hugging Face](https://huggingface.co/datasets/gaodrew/midjourney-prompts-highquality/viewer/default/train?row=1&views%5B%5D=train). For prompt creation I used gpt40-turbo and script you can find in this repository [GitHub](https://github.com/sukibk/llama3b-finetuning-mjprompts). Code in this notebook includes additional script for loading data from custom file which is also included in this repo.
 
 🚀 Trained using:
 - 🧠 Model: `unsloth/Llama-3.2-3B-Instruct-bnb-4bit`
